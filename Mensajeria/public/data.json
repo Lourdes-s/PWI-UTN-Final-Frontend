@@ -237,9 +237,10 @@
         "id": 5,
         "thumbnail": "assets/Santiago.jpg",
         "telefono": "+54 9 11 75582469",
-        "estado": "Asesor Academico del area de Diseño Multimedial de la UTN BA",
+        "estado": "Ocupado",
         "direccion": "Av. Medrano 951",
         "email": "snobile@frba@gmail.com",
+        "descripcion":"Asesor Academico del area de Diseño Multimedial de la UTN BA",
         "estado_contacto": "Ultima vez Ayer 18:00",
         "mensajes": [
             {
@@ -293,6 +294,7 @@
         "estado": "Codeando",
         "direccion": "Av. siempre viva 123",
         "email": "enueldev@gmail.com",
+        "descripcion":"Tutor de la UTN BA",
         "estado_contacto": "Ultima vez Ayer 18:00",
         "mensajes": [
             {
@@ -322,6 +324,7 @@
         "estado": "Chambeando",
         "direccion": "Montegrave 236",
         "email": "silvi@gmail.com",
+        "descripcion": "La michi el ser mas perfecto",
         "estado_contacto": "Escribiendo...",
         "mensajes": [
             {
@@ -340,9 +343,10 @@
         "id": 8,
         "thumbnail": "assets/Luciana.jpg",
         "telefono": "+54 9 1136680069",
-        "estado": "Odontologia y todas sus especialidades",
+        "estado": "Trabajando",
         "direccion": "Loma hermosa 923",
         "email": "luodonto@gmail.com",
+        "descripcion": "Odontologia y todas sus especialidades",
         "estado_contacto": "Escribiendo...",
         "mensajes": [
             {
@@ -401,9 +405,10 @@
         "id": 9,
         "thumbnail": "assets/Viviana.jpg",
         "telefono": "+54 9 1166065669",
-        "estado": "Viviana consultorio pacheco",
+        "estado": "Disponible",
         "direccion": "hipolito yrigoyen 1044",
         "email": "vivianapetshop@gmail.com",
+        "descripcion":"Whatsapp unicamente para envio de analisis y programacion de turnos",
         "estado_contacto": "En linea",
         "mensajes": [
             {
@@ -454,9 +459,10 @@
         "id": 10,
         "thumbnail": "assets/Lorena.jpg",
         "telefono": "+54 9 1140345182",
-        "estado": "Terapias holisticas para sanacion del alma",
+        "estado": "Ocupado",
         "direccion": "Pasteur 444",
         "email": "gratitud@gmail.com",
+        "descripcion": "Terapias holisticas para sanacion del alma",
         "estado_contacto": "En linea",
         "mensajes": [
             {
@@ -491,9 +497,10 @@
         "id": 11,
         "thumbnail": "assets/Street.jpg",
         "telefono": "+54 9 1150460769",
-        "estado": "Horario: Lunes a Domingos de 10:00 a 22:00",
+        "estado": "Disponible",
         "direccion": "TOM",
         "email": "47street@gmail.com",
+        "descripcion": "Horario: Lunes a Domingos de 10:00 a 22:00",
         "estado_contacto": "En linea",
         "mensajes": [
             {
