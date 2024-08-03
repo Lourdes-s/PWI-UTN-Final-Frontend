@@ -1,21 +1,9 @@
-import pepeImage from './assets/Pepe.jpg'
-import andreImage from './assets/Andre.jpg'
-import mamaImage from './assets/Mama.jpg'
-import barbieImage from './assets/Barbie.jpg'
-import santiagoImage from './assets/Santiago.jpg'
-import enuelImage from './assets/Enuel.jpg'
-import silImage from './assets/Sil.jpg'
-import lucianaImage from './assets/Luciana.jpg'
-import vivianaImage from './assets/Viviana.jpg'
-import lorenaImage from './assets/Lorena.jpg'
-import streetImage from './assets/Street.jpg'
-
 export const MOOK_CONTACTOS =[
     {
         nombre:  'Pepe',
         apellido: 'Suarez' ,
         id: 1,
-        thumbnail: pepeImage,
+        thumbnail: '/assets/Pepe.jpg',
         telefono: '+54 9 11 6229-2369',
         estado:'Disponible',
         direccion:'Sin informar',
@@ -61,7 +49,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Andrea',
         apellido: 'Bara' ,
         id: 2,
-        thumbnail: andreImage,
+        thumbnail: '/assets/Andre.jpg',
         telefono: '+54 9 11 3248-1569',
         estado:'No molestar',
         direccion:'Inglaterra 666',
@@ -155,7 +143,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Mamá',
         apellido: 'Carpintera' ,
         id: 3,
-        thumbnail: mamaImage,
+        thumbnail: '/assets/Mama.jpg',
         telefono: '+54 9 11 5967-4569',
         estado:'Disponible',
         direccion:'Huemez 1111',
@@ -201,7 +189,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Barbie',
         apellido: 'Guard',
         id: 4,
-        thumbnail: barbieImage,
+        thumbnail: '/assets/Barbie.jpg',
         telefono: '+54 9 1173667569',
         estado:'Disponible',
         direccion:'Barbie land',
@@ -247,7 +235,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Santiago',
         apellido: 'UTN' ,
         id: 5,
-        thumbnail: santiagoImage,
+        thumbnail: '/assets/Santiago.jpg',
         telefono: '+54 9 11 75582469',
         estado:'Asesor Academico del area de Diseño Multimedial de la UTN BA',
         direccion:'Av. Medrano 951',
@@ -300,7 +288,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Enuel',
         apellido: 'UTN' ,
         id: 6,
-        thumbnail: enuelImage,
+        thumbnail: '/assets/Enuel.jpg',
         telefono: '+54 9 11 27479201',
         estado:'Codeando',
         direccion:'Av. siempre viva 123',
@@ -329,7 +317,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Sil',
         apellido: 'Warner' ,
         id: 7,
-        thumbnail: silImage,
+        thumbnail: '/assets/Sil.jpg',
         telefono: '+54 9 1151166169',
         estado:'Chambeando',
         direccion:'Montegrave 236',
@@ -350,7 +338,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Luciana',
         apellido: 'Odonto' ,
         id: 8,
-        thumbnail: lucianaImage,
+        thumbnail: '/assets/Luciana.jpg',
         telefono: '+54 9 1136680069',
         estado:'Odontologia y todas sus especialidades',
         direccion:'Loma hermosa 923',
@@ -411,7 +399,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Viviana',
         apellido: 'Petshop' ,
         id: 9,
-        thumbnail: vivianaImage,
+        thumbnail: '/assets/Viviana.jpg',
         telefono: '+54 9 1166065669',
         estado:'Viviana consultorio pacheco',
         direccion:'hipolito yrigoyen 1044',
@@ -464,7 +452,7 @@ export const MOOK_CONTACTOS =[
         nombre:  'Lorena',
         apellido: 'Reiki' ,
         id: 10,
-        thumbnail: lorenaImage,
+        thumbnail: '/assets/Lorena.jpg',
         telefono: '+54 9 1140345182',
         estado:'Terapias holisticas para sanacion del alma',
         direccion:'Pasteur 444',
@@ -501,7 +489,7 @@ export const MOOK_CONTACTOS =[
         nombre:  '47',
         apellido: 'Street' ,
         id: 11,
-        thumbnail: streetImage,
+        thumbnail: '/assets/Street.jpg',
         telefono: '+54 9 1150460769',
         estado:'Horario: Lunes a Domingos de 10:00 a 22:00',
         direccion:'TOM',
