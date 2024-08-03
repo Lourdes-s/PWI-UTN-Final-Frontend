@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { LiaPhoneSolid } from "react-icons/lia";
+import { HiOutlineChatBubbleBottomCenterText } from "react-icons/hi2";
+import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
 import './InfoPerfil.css'
 
 
@@ -23,9 +25,9 @@ const InfoPerfil = ({ contact }) => {
                 <span className='info-profile-call-text'>Llamar</span>
                 </div>
                 <div className='info-contact-secondary'>
-                    <span className='info-contact-description'>{contact.descripcion}</span>
-                    <span className='info-contact-email'>{contact.email}</span>
-                    <span className='info-contact-address'>{contact.direccion}</span>
+                <span className='info-contact-description'><HiOutlineChatBubbleBottomCenterText /> {contact.descripcion}</span>
+                    <span className='info-contact-email'><HiOutlineMail /> {contact.email}</span>
+                    <span className='info-contact-address'><HiOutlineLocationMarker /> {contact.direccion}</span>
                 </div>
             </div> 
         )
