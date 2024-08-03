@@ -1,0 +1,50 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.form-message {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5b6d9;
+    padding: 0 30px;
+}
+
+.form {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-text {
+    height: 4vh;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fbefef;
+    box-shadow: inset 11px 11px 22px #ddd2d2, inset -11px -11px 22px #ffffff;
+}
+
+.button-submit {
+    height: 4vh; 
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+    cursor: pointer; 
+}
+
+/* No hice mediaqueries porque estuve probando con el vh 🌸 y siento que seve bien en todos los tamaños */

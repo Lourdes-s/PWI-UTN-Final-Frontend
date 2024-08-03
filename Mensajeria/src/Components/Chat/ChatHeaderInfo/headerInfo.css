@@ -1,0 +1,161 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    background-color:#f1b2d7;
+    box-shadow: 3px 3px 10px 3px #7776773f;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 5px 10px 5px;
+    width: 75%;
+    height: 100%;
+}
+
+.name-pic{
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.name{
+    font-size: 120%;
+    font-weight: bold;
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 40%;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px 5px;
+    overflow: hidden;
+    width: 25%;
+}
+
+.header-buttons .button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #464646;
+    margin: 0 2px;
+}
+
+.contact-container .button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #464646;
+}
+
+/* -------------------------------------------------------------MEDIAQUERIES------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .contact-container {
+        width: 70%;
+    }
+
+    .profile-picture {
+        height: 40px;
+        width: 40px;
+    }
+
+    .name {
+        font-size: 120%;
+    }
+
+    .header-buttons {
+        width: 30%;
+    }
+
+    .header-buttons .button {
+        font-size: 22px;
+    }
+
+    .contact-container .button {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-container {
+        width: 65%;
+    }
+
+    .profile-picture {
+        height: 50px;
+        width: 50px;
+    }
+
+    .name {
+        font-size: 140%;
+    }
+
+    .header-buttons {
+        width: 35%;
+    }
+
+    .header-buttons .button {
+        font-size: 25px;
+    }
+
+    .contact-container .button {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .contact-container {
+        width: 60%;
+    }
+
+    .profile-picture {
+        height: 60px;
+        width: 60px;
+    }
+
+    .name {
+        font-size: 160%;
+    }
+
+    .header-buttons {
+        width: 40%;
+    }
+
+    .header-buttons .button {
+        font-size: 28px;
+    }
+
+    .contact-container .button {
+        font-size: 28px;
+    }
+}
