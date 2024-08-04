@@ -15,8 +15,8 @@ export const MOOK_CONTACTOS =[
                 author: 'pepe',
                 text: 'Ayudame loco',
                 estado: 'visto',
-                day: 'Hoy',
-                hour: '13:15',
+                day: 'Ayer',
+                hour: '23:45',
                 id: '1'
             },
             {
@@ -24,7 +24,7 @@ export const MOOK_CONTACTOS =[
                 text: '??????',
                 estado: 'visto',
                 day: 'Hoy',
-                hour: '23:50',
+                hour: '06:40',
                 id: '2'
             },
             {
