@@ -1,39 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Contacts.css'
-import { obtenerContactos } from '../../../Fetching/contacts.fetching'
 
-const Contacts = () => {
-
-    useEffect(
-        () =>{
-            setTimeout(
-                () => {
-                    obtenerContactos()
-            .then(
-                (contacts) => {
-                    console.log('contactos', contacts)
-                    setListaContactos(contacts)
-                    setIsLoading(false)
-                }
-            )
-                },
-                2000
-            )
-            
-        },
-        []
-    )
-
-
-    const [listaContactos, setListaContactos] = useState([])
-    const [isLoading, setIsLoading] = useState(true)
-    
+const Contacts = ({contactos, estaCargando}) => {
 
     return (
         <div className='contacts-container'>
             {
-                isLoading
+                estaCargando
                 ?<div className="wrapper">
                 <div className="loader">
                     <div className="loading one"></div>
@@ -42,7 +16,7 @@ const Contacts = () => {
                     <div className="loading four"></div>
                 </div>
                 </div>
-                :listaContactos.map(contact =>{
+                :contactos.map(contact =>{
                     return(
                         <Link className='contact-list' to = {'/chat/' + contact.id} key={contact.id}>
                             <img className='profile-pic-contacts' src= {contact.thumbnail} alt='foto de perfil' />
